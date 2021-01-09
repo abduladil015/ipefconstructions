@@ -4,7 +4,7 @@ import './About.css';
 function About () {
     return (
         <>
-            <img class="bgi" src="./images/back.jpg" alt=""></img>
+            <img class="bgi" src="./images/back.jpg" alt="background"></img>
             <div class="all">
             <h1 class="abth">About</h1>
                 <div class="abtd">

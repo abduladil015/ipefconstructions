@@ -1,0 +1,71 @@
+.bgi {
+    position: relative;
+    height: auto;
+    width: 1300px;
+    left: 0px;
+    padding: 0px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .head {
+    text-align: center;
+    padding-top: 50px;
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .project-name {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .column-projects {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    line-height: 30px;
+  }
+  
+  .row-projects {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 40px;
+    margin-left: 70px;
+    position: relative;
+  }
+  
+  .site {
+    height: 200px;
+    width: 350px;
+  }
+  
+  .inner-div {
+    margin: 40px;
+  }
+
+  .title {
+    color: darkblue;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .subhead {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 110px;
+    color: darkblue;
+  }
+  
+  .completed {
+    position: relative;
+    width: auto;
+    margin-left: 10px;
+    line-height: 30px;
+  }
+  

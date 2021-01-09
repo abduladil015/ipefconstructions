@@ -1,0 +1,39 @@
+img {
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    position: relative;
+    
+}
+div {
+    display: block;
+}
+
+
+.footer {
+    position: relative  ;
+    margin-top: 10px;
+    padding: 15px;
+    height: 160px;
+    width: 100%;
+    background: darkblue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    line-height: 35px;
+ }
+
+.col-md-6 {
+    color: white;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.row text-center {
+    color: white;
+}

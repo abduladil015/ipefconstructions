@@ -4,6 +4,8 @@
     align-items: center;
   }
   .slides-image {
+    border: 1px solid darkblue;
+    margin-top: 23px;
     border: blue;
     border-width: thick;
     width: 1300px;

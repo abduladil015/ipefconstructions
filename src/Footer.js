@@ -6,10 +6,10 @@ function Footer() {
   return ( 
       <div className="footer">
       <div className = "container-fluid mt-4" >
-          <div className="row">
+          <div className="row1">
               <div className = "col-md-2"></div>
               <div className="col-md-8 text-center mt-3">
-                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="./images/facebook.png" alt="facebook" ></img></a>
+                 <a href="https://www.facebook.com/IPEFConstruction" target="_blank" rel="noreferrer"><img src="./images/facebook.png" alt="facebook" ></img></a>
                       <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="./images/instagram.png" alt="instagram" ></img></a>
                           <a href="https://twitter.com/explore"target="_blank" rel="noreferrer"><img src="./images/twitter.png" alt="twitter"></img></a>
                           <div className = "col-md-2"></div>

@@ -43,8 +43,18 @@
   .site {
     height: 200px;
     width: 350px;
+    transition: 0.4s;
+    transform: scale3d(1);
   }
-  
+
+  .site:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    opacity: 0.9;
+    border-radius: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+  }  
   .inner-div {
     margin: 40px;
   }

@@ -19,7 +19,7 @@ function Projects() {
         <div className="row-projects">
           <div className="column-projects" style={{ backgroundColor: "white" }}>
             <a
-              href="http://pranathiinfra.com/project_details/view/8"
+              href="ProjectView1" 
               className="img-container"
             >
               <img
@@ -31,7 +31,7 @@ function Projects() {
             <div className="inner-div">
               <h5 className="project-name">Project Name: </h5>
               <a
-                href="http://pranathiinfra.com/project_details/view/8"
+                href="ProjectView1"
                 className="title"
               >
                 Victoria Enclave
@@ -48,7 +48,6 @@ function Projects() {
               <p className="add">2 &amp; 3 BHK</p>
               <h4 className="no_br_btm">SFT</h4>
               <p className="add"> 1240 to 1550</p>
-              <div className="more"><a href="">more</a></div>
             </div>
           </div>
 
@@ -56,7 +55,7 @@ function Projects() {
 
           <div className="column-projects" style={{ backgroundColor: "white" }}>
             <a
-              href="http://pranathiinfra.com/project_details/view/8"
+              href="ProjectView2"
               className="img-container"
             >
               <img
@@ -68,7 +67,7 @@ function Projects() {
             <div className="inner-div">
               <h5 className="project-name">Project Name: </h5>
               <a
-                href="http://pranathiinfra.com/project_details/view/8"
+                href="ProjectView2"
                 className="title"
               >
                 Luxury Apartments
@@ -92,7 +91,7 @@ function Projects() {
 
           <div className="column-projects" style={{ backgroundColor: "white" }}>
             <a
-              href="http://pranathiinfra.com/project_details/view/8"
+              href="ProjectView3"
               className="img-container"
             >
               <img
@@ -104,7 +103,7 @@ function Projects() {
             <div className="inner-div">
               <h5 className="project-name">Project Name: </h5>
               <a
-                href="http://pranathiinfra.com/project_details/view/8"
+                href="ProjectView3"
                 className="title"
               >
                 Happy Homes
@@ -130,7 +129,7 @@ function Projects() {
         <div className="row-projects">
           <div className="completed" style={{ backgroundColor: "white" }}>
             <a
-              href="http://pranathiinfra.com/project_details/view/8"
+              href="ProjectView4"
               className="img-container"
             >
               <img
@@ -142,7 +141,7 @@ function Projects() {
             <div className="inner-div">
               <h5 className="project-name">Project Name: </h5>
               <a
-                href="http://pranathiinfra.com/project_details/view/8"
+                href="ProjectView4"
                 className="title"
               >
                 PLR Homes

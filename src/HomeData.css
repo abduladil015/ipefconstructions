@@ -11,6 +11,7 @@
     color: darkblue;
     position: relative;
     font-weight: 700;
+    font-size: x-large;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -40,17 +41,20 @@
     text-align: justify;
     position: relative;
     color: gray;
-    font-size: medium;
+    font-size: large;
     width: 1090px;
 }
 .services {
     padding: 50px;
     width: 1300px;
     height: 600px;
+    border-radius: 25px;
     position: relative;
+    transition: 0.5s;
+    transform: scale3d(1);
 }
 .services:hover {
     padding: 20px;
-    transition: 1s;
-    transform: scale3d(1.4);
+    transition: 0.4s;
+    transform: scale3d(1.3);
 }

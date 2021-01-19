@@ -1,0 +1,33 @@
+.heads {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.column {
+    margin-top: 25px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .gallery{
+      height: 250px;
+      width: 350px;
+      margin-bottom: 20px;
+  }
+.amenities {
+    width: 88%;
+    height: 287px;
+    margin-left: 70px;
+}
+.bgi1 {
+    margin-top: 25px;
+    width: 1300px;
+    height: 500px;
+}

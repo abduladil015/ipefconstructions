@@ -1,8 +1,13 @@
 import React from 'react';
-import { Route, Switch, useLocation,BrowserRouter } from 'react-router-dom';
+import { Route, Switch ,BrowserRouter } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import ProjectView1 from './ProjectView1';
+import ProjectView2 from './ProjectView2';
+import ProjectView3 from './ProjectView3';
+import ProjectView4 from './ProjectView4';
+import Services from './Services';
 import Contact from './Contact';
 import Login from './Login';
 import Quote from './Quote';
@@ -12,8 +17,6 @@ import Quote from './Quote';
 const Routes = () => {
   return (
     <BrowserRouter>
-      
-      <LocationDisplay />
                
       <Switch>
         <Route exact path="/" >
@@ -27,6 +30,27 @@ const Routes = () => {
         <Route exact path="/Projects">
         <Projects/>
         </Route>
+
+        <Route exact path="/ProjectView1">
+        <ProjectView1/>
+        </Route>
+
+        <Route exact path="/ProjectView2">
+        <ProjectView2/>
+        </Route>
+
+        <Route exact path="/ProjectView3">
+        <ProjectView3/>
+        </Route>
+
+        <Route exact path="/ProjectView4">
+        <ProjectView4/>
+        </Route>
+
+        <Route exact path="/Services">
+        <Services/>
+        </Route>
+
         <Route exact path="/Contact" >
         <Contact/>
         </Route>
@@ -47,11 +71,6 @@ const Routes = () => {
     </BrowserRouter>
   );
 };
-
-export function LocationDisplay(){
-  const {pathname} = useLocation();
-  return <div data-testid="location-display">{pathname}</div>;
-}
 
 
 export default Routes;

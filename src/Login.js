@@ -66,7 +66,7 @@ function Login() {
 function LoginForm() {
   return (
     <React.Fragment>
-      <label for="username">USERNAME</label>
+      <label for="username">EMAIL</label>
       <input type="text" id="username" />
       <label for="password">PASSWORD</label>
       <input type="text" id="password" />
